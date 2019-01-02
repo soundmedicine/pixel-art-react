@@ -20,7 +20,6 @@ class App extends Component {
           <div className="maroon" id="paint">maroon</div>
           <div className="brown" id="paint">brown</div>
           <div className="black" id="paint">black</div>
-          <div className="white" id="paint">white</div>
         </div>
 
         <h1>Canvas</h1>
