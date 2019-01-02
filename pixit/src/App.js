@@ -1,25 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <h1>Palette</h1>
+        <div className="color">
+          <div className="red" id="paint">red</div>
+          <div className="orange" id="paint">orange</div>
+          <div className="yellow" id="paint">yellow</div>
+          <div className="lime" id="paint">lt green</div>
+          <div className="green" id="paint">green</div>
+          <div className="teal" id="paint">teal</div>
+          <div className="blue" id="paint">blue</div>
+          <div className="indigo" id="paint">indigo</div>
+          <div className="violet" id="paint">violet</div>
+          <div className="maroon" id="paint">maroon</div>
+          <div className="brown" id="paint">brown</div>
+          <div className="black" id="paint">black</div>
+          <div className="white" id="paint">white</div>
+        </div>
+
+        <h1>Canvas</h1>
+        <div className = "canvas"></div>
+
+        <script src="js/app.js"></script>
       </div>
     );
   }
